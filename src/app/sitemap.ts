@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { articles } from "@/lib/data";
 
-const BASE = "https://idrak.app";
+const BASE = "https://idrak-nine.vercel.app";
 const staticRoutes = ["", "/awareness", "/algorithms", "/influence", "/verify", "/privacy", "/digital-mirror", "/algorithm-lab", "/challenges", "/library", "/about", "/contact"];
 
 export default function sitemap(): MetadataRoute.Sitemap {

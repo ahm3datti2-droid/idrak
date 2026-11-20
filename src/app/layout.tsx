@@ -10,7 +10,7 @@ const cairo = Cairo({ subsets: ["arabic"], weight: ["400","600","700","800","900
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://idrak.app"),
+  metadataBase: new URL("https://idrak-nine.vercel.app"),
   title: { default: "إدراك | IDRAK — وعي. فهم. تحكم.", template: "%s | إدراك IDRAK" },
   description: "افهم العالم الرقمي قبل أن يؤثر عليك. إدراك يساعدك تفهم الخوارزميات، تكتشف التضليل، تحمي خصوصيتك، وتستعيد السيطرة على تجربتك الرقمية.",
   keywords: ["إدراك","IDRAK","الوعي الرقمي","الخوارزميات","التضليل","الأخبار الكاذبة","الخصوصية الرقمية","Digital Awareness","Algorithm Awareness","Media Literacy"],
